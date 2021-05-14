@@ -1,0 +1,6 @@
+reporters: [['allure', {
+        outputDir: './test_report',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: false,
+        useCucumberStepReporter: true,
+    }]],
